@@ -15,6 +15,7 @@ import sys
 #  3. INTEGER tax_percent
 #
 
+
 def solve(meal_cost, tip_percent, tax_percent):
     # Write your code here
      totalCost = (meal_cost) + ((tip_percent/100) * meal_cost) + ((tax_percent/100) * meal_cost)
